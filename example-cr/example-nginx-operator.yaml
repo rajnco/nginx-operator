@@ -1,0 +1,7 @@
+apiVersion: operator.rajnco.com/v1alpha1
+kind: NginxOperator
+metadata:
+  name: from-cluster
+  namespace: nginx-operator-system
+spec:
+  replicas: 1

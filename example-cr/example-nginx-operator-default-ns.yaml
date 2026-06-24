@@ -1,0 +1,7 @@
+apiVersion: operator.rajnco.com/v1alpha1
+kind: NginxOperator
+metadata:
+  name: non-cluster
+  namespace: default
+spec:
+  replicas: 3
